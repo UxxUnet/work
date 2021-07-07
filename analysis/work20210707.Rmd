@@ -1,9 +1,22 @@
 ---
 title: "Work 20210707"
-output:
-  html_document:
-    toc: false
 ---
+title: "Work 20210707"
+author: "Guangyou Li"
+date: 2021-07-07
+output: html_document
+---
+
+<!-- The file analysis/chunks.R contains chunks that define default settings
+shared across the workflowr files. -->
+```{r read-chunk, include=FALSE, cache=FALSE}
+knitr::read_chunk("chunks.R")
+```
+
+<!-- Update knitr chunk options -->
+```{r knitr-opts-chunk, include=FALSE}
+```
+
 
 This is a review of my work for previous two weeks.
 
