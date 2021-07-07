@@ -1,0 +1,30 @@
+---
+title: "07/07/2021 meeting"
+author: "Guangyou Li"
+output: pdf_document
+---
+
+# Study
+
+  * [PoPs:Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases](https://doi.org/10.1101/2020.09.08.20190561)
+
+  * [A practical introduction to statistical genetics](https://rawgit.com/uqrmaie1/statgen_equations/master/statgen_equations.html)
+
+  * [Dockerfile writing](https://github.com/cumc/bioworkflows/blob/master/GWAS/lmm.dockerfile)
+
+  * [Statistical genetics papers](http://statgen.us/lab-wiki/learning_center/statgen-papers#introductory)
+
+# Work review
+
+  * [GWAS_QC memory problem](https://github.com/UxxUnet/prototype/blob/main/GWAS_QC_Rmem.ipynb)
+
+  * [PCA plot problem](https://github.com/UxxUnet/prototype/blob/main/PCA_plot_problem.ipynb)
+
+  * [bcfstats TsTv extraction](https://github.com/UxxUnet/prototype/blob/main/bcfstatsextract.ipynb)
+
+  * [PoPs](https://github.com/UxxUnet/prototype/blob/main/bcfstatsextract.ipynb)
+
+# Future work
+
+  * [Variant calling pipeline modification](https://github.com/cumc/bioworkflows/blob/master/variant-calling/gatk_joint_calling.ipynb)   
+  * [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/)

@@ -1,10 +1,8 @@
 ---
 title: "About"
 output:
-  workflowr::wflow_html:
+  html_document:
     toc: false
-editor_options:
-  chunk_output_type: console
 ---
 
-Describe your project.
+This is a small example site to demonstrate the basic features of a workflowr.
