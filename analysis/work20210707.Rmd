@@ -20,7 +20,9 @@ This is a review of my work for previous two weeks.
 
 # Study
 
-  * [PoPs:Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases](https://doi.org/10.1101/2020.09.08.20190561)
+  * PoPs (Polygenic Priority Score) Pipeline
+  
+    > [Weeks, E. M., Ulirsch, J. C., Cheng, N. Y., Trippe, B. L., Fine, R. S., Miao, J., ... & Finucane, H. K. (2020). Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. medRxiv.](https://doi.org/10.1101/2020.09.08.20190561)
 
   * [A practical introduction to statistical genetics](https://rawgit.com/uqrmaie1/statgen_equations/master/statgen_equations.html)
 
@@ -36,9 +38,10 @@ This is a review of my work for previous two weeks.
 
   * [bcfstats TsTv extraction](https://github.com/UxxUnet/prototype/blob/main/bcfstatsextract.ipynb)
 
-  * [PoPs](https://github.com/UxxUnet/prototype/blob/main/bcfstatsextract.ipynb)
+  * [PoPs](https://github.com/UxxUnet/prototype/blob/main/PoPsrep.ipynb)
 
 # Future work
 
-  * [Variant calling pipeline modification](https://github.com/cumc/bioworkflows/blob/master/variant-calling/gatk_joint_calling.ipynb)   
+  * [Variant calling pipeline modification](https://github.com/cumc/bioworkflows/blob/master/variant-calling/gatk_joint_calling.ipynb)
+  
   * [ANNOVAR](https://annovar.openbioinformatics.org/en/latest/)
