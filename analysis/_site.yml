@@ -1,23 +1,23 @@
 name: Example site
-output_dir: "../docs"
-include: [".nojekyll"]
-exclude: ["include"]
+output_dir: ../docs
+include: .nojekyll
+exclude: include
 navbar:
   title: Example site
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-    - text: "License"
-      href: license.html
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
   right:
-    - icon: fa-github
-      href: https://github.com/jdblischak/workflowr-demo01
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/UxxUnet/work
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: yes
+    toc_float: yes
     theme: cosmo
     highlight: textmate
-
