@@ -1,7 +1,8 @@
 ---
 title: "07/07/2021 meeting"
-author: "Guangyou Li"
-output: pdf_document
+output:
+  html_document:
+    toc: false
 ---
 
 # Study
