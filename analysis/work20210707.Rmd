@@ -1,7 +1,5 @@
 ---
 title: "Work 20210707"
----
-title: "Work 20210707"
 author: "Guangyou Li"
 date: 2021-07-07
 output: html_document
