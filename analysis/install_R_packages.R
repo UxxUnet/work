@@ -18,15 +18,15 @@ InstallPackageFromArchive = function(packageName, packageURL) {
 dependencies = c("gplots",
                  "digest", "gtable", "MASS", "plyr", "reshape2", "scales", "tibble", "lazyeval", # for ggplot2
                  "tidyselect", "BH", "plogr")     # for dplyr
-repos <- c("https://cran.rstudio.com/")
+repos <- c("http://cran.r-project.org")
 install.packages(dependencies, repos = repos, clean = TRUE)
 
 InstallPackageFromArchive("getopt", "http://cran.r-project.org/src/contrib/Archive/getopt/getopt_1.20.0.tar.gz")
 InstallPackageFromArchive("optparse", "http://cran.r-project.org/src/contrib/Archive/optparse/optparse_1.3.2.tar.gz")
-install.packages("data.table")
+InstallPackageFromArchive("data.table", "https://cloud.r-project.org/src/contrib/data.table_1.14.2.tar.gz")
 InstallPackageFromArchive("gsalib", "http://cran.r-project.org/src/contrib/gsalib_2.1.tar.gz")
 InstallPackageFromArchive("ggplot2", "http://cran.r-project.org/src/contrib/Archive/ggplot2/ggplot2_2.2.1.tar.gz")
-install.packages("dplyr")
+InstallPackageFromArchive("dplyr", "https://cloud.r-project.org/src/contrib/dplyr_1.0.9.tar.gz")
 
 # HMM is only required for testing and not in production:
 InstallPackageFromArchive("HMM", "http://cran.r-project.org/src/contrib/HMM_1.0.tar.gz")
