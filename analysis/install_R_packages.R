@@ -26,7 +26,7 @@ InstallPackageFromArchive("optparse", "http://cran.r-project.org/src/contrib/Arc
 install.packages("data.table")
 InstallPackageFromArchive("gsalib", "http://cran.r-project.org/src/contrib/gsalib_2.1.tar.gz")
 InstallPackageFromArchive("ggplot2", "http://cran.r-project.org/src/contrib/Archive/ggplot2/ggplot2_2.2.1.tar.gz")
-InstallPackageFromArchive("dplyr", "http://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.8.0.1.tar.gz")
+install.packages("dplyr")
 
 # HMM is only required for testing and not in production:
 InstallPackageFromArchive("HMM", "http://cran.r-project.org/src/contrib/HMM_1.0.tar.gz")
