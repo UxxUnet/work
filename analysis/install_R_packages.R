@@ -29,6 +29,6 @@ InstallPackageFromArchive("ggplot2", "http://cran.r-project.org/src/contrib/Arch
 install.packages("dplyr")
 
 # HMM is only required for testing and not in production:
-InstallPackageFromArchive("HMM", "http://cran.r-project.org/src/contrib/HMM_1.0.tar.gz")
+install.packages("HMM")
 
 q(save = "no")
